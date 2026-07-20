@@ -156,7 +156,7 @@ def main():
     print()
     print(" Keep this window open while you fish. Good luck!")
     print("=" * 50)
-    print("\nReady and waiting -- double-tap Q when the bar appears...")
+    print("\nReady and waiting -- double-tap X when the bar appears...")
 
     listener = keyboard.Listener(on_press=on_press)
     listener.start()
