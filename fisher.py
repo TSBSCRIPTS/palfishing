@@ -35,7 +35,7 @@ MIN_GREEN_ROWS = 8       # a column needs this many green pixels to count as blo
 GAP_TOLERANCE = 20       # bridge small gaps within the block
 
 # --- Keys ---
-TOGGLE_CHAR = "q"
+TOGGLE_CHAR = "x"
 QUIT_KEY = keyboard.Key.f8
 DOUBLE_TAP_WINDOW = 0.4
 
