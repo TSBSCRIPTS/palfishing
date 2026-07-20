@@ -20,8 +20,8 @@ Double-click **`1_SETUP.bat`**. It installs everything automatically
 1. Open **Palworld** (Windowed or Borderless mode works best).
 2. Double-click **`2_PLAY.bat`** → click **Yes** if Windows asks.
 3. In-game, cast and hook a fish.
-4. When the catch bar appears, **double-tap `Q`** → it takes over!
-5. **Double-tap `Q`** again to pause. Press **`F8`** to quit.
+4. When the catch bar appears, **double-tap `X`** → it takes over!
+5. **Double-tap `X`** again to pause. Press **`F8`** to quit.
 
 ## ⚠️ If Windows warns you
 Because it moves the mouse, Windows Defender / SmartScreen may show a warning.

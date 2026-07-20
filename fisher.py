@@ -127,7 +127,7 @@ def on_press(key):
         if now - last_toggle_tap < DOUBLE_TAP_WINDOW:
             armed = not armed
             last_toggle_tap = 0.0
-            print("\n>>> FISHING <<<  (double-tap Q to pause)" if armed
+            print("\n>>> FISHING <<<  (double-tap X to pause)" if armed
                   else "\n>>> PAUSED <<<  (double-tap X to fish again)")
         else:
             last_toggle_tap = now
