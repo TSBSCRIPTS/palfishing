@@ -6,7 +6,7 @@ and moving the block to keep it on the fish. No cheats, no game files
 touched -- it just looks at the screen and clicks, like a macro.
 
 CONTROLS (shown on screen too):
-    Double-tap Q  ->  start / pause fishing
+    Double-tap X  ->  start / pause fishing
     F8            ->  quit
 
 Must run as administrator (the launcher handles that for you).
@@ -128,7 +128,7 @@ def on_press(key):
             armed = not armed
             last_toggle_tap = 0.0
             print("\n>>> FISHING <<<  (double-tap Q to pause)" if armed
-                  else "\n>>> PAUSED <<<  (double-tap Q to fish again)")
+                  else "\n>>> PAUSED <<<  (double-tap X to fish again)")
         else:
             last_toggle_tap = now
 
@@ -150,8 +150,8 @@ def main():
     print("=" * 50)
     print(" HOW TO USE:")
     print("   1. Go into Palworld and cast your line.")
-    print("   2. When the catch bar shows up, DOUBLE-TAP  Q")
-    print("   3. Watch it play! DOUBLE-TAP  Q  again to pause.")
+    print("   2. When the catch bar shows up, DOUBLE-TAP  X")
+    print("   3. Watch it play! DOUBLE-TAP  X  again to pause.")
     print("   4. Press  F8  to quit.")
     print()
     print(" Keep this window open while you fish. Good luck!")
