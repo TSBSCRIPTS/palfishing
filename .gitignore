@@ -1,0 +1,5 @@
+# Don't upload the local Python environment or caches --
+# setup builds these fresh on each person's machine.
+venv/
+__pycache__/
+*.pyc
